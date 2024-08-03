@@ -2028,3 +2028,12 @@ textarea.form-input::-webkit-resizer {
     max-width: 700px;
   }
 }
+
+.popup {
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+
+.popup.show {
+  opacity: 1;
+}
